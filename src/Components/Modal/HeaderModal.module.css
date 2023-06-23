@@ -1,0 +1,65 @@
+.modalContainer {
+    gap: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    width: 90%;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 5px;
+}
+
+.titleModal {
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    color: var(--bg-days);
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.nameButton {
+    width: 32%;
+    height: 50px;
+    color: black;
+    background-color: var(--bg-day);
+    border: none;
+    border-radius: 5px;
+    margin: 1px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.nameButton:hover {
+    background-color: white;
+    transition: all 200ms;
+}
+
+.close {
+    position: fixed;
+    top: .4rem;
+    right: .4rem;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background: #f44336;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+.close:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

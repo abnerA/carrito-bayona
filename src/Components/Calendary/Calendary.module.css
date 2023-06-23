@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-color);
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+}
+
+.titleMonth {
+    width: 120px;
+    margin: 0px 5px;
+    font-size: 16px;
+    color: var(--title-color);
+    font-style: italic;
+    font-weight: 800;
+}
+
+.btnLast, .btnNext {
+    background-color: var(--bg-button);
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.btnLast:hover, .btnNext:hover {
+    opacity: .8;
+    transition: 200ms;
+}
+
+.btnIcon {
+    width: 12px;
+}
+
+@media only screen and (max-width: 710px) {
+    .btnLast, .btnNext {
+        width: 20px;
+        height: 20px;
+    }
+
+    .btnNext img, .btnLast img {
+        height: 15px;
+    }
+
+    .titleMonth {
+        width: 120px;
+        margin: 0px 5px;
+        font-size: 14px;
+        color: var(--title-color);
+        font-style: italic;
+        font-weight: 800;
+    }
+}

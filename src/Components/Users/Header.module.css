@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: var(--bg-color);
+    padding-top: 10px;
+}
+
+.title {
+    width: 210px;
+    font-size: 18px;
+    text-decoration: underline;    
+    margin: 0px;
+    color: var(--title-color);
+    font-style: italic;
+    font-weight: 800;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 160px;
+    height: 100%;
+}
+
+h4 {
+    text-align: center;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.iniciarSesion, .exit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--bg-button);
+    color: var(--color-button);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.iniciarSesion {
+    width: 100%;
+    height: 40px;
+}
+
+.iniciarSesion:hover, .exit:hover {
+    opacity: .9;
+    transition: all 200ms;
+}
+
+.exit {
+    width: 90%;
+    height: 30px;
+}
+
+@media only screen and (max-width: 710px) {
+    .title {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .iniciarSesion {
+        width: 90%;
+        font-size: 12px;
+    }
+}

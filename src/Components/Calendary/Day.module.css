@@ -1,0 +1,123 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.container .day {
+  height: auto;
+  background-color: var(--bg-day);
+  margin: 2px;
+  border: solid 1px var(--color-border);
+  border-radius: 3px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.container .day:hover {
+    background-color: white;
+    transition: all 500ms;
+}
+
+h2 {
+  text-align: end;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.today {
+  background-color: #91bed4;
+}
+
+.container .day .mañana,
+.container .day .tarde {
+  height: 70px;
+}
+
+.container .day .mañana {
+  margin-bottom: 2px;
+}
+
+.container .day .tarde {
+  margin-top: 1px;
+}
+
+h5 {
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 1px;
+}
+
+.container .day .mañana .circle,
+.container .day .tarde .circle {
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+}
+
+.dayNone {
+  display: none;
+}
+
+.dayActive {
+  display: block;
+}
+
+@media only screen and (max-width: 709px) {
+  .container .day {
+    margin: 1px;
+  }
+
+  .container .day .mañana,
+  .container .day .tarde {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2px;
+  }
+
+  .container .day .name,
+  .container .day h5 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  .container .day .name {
+    display: block;
+  }
+}
+
+.container .day .name {
+  margin: 0px;
+  font-size: 9.5px;
+  color: black;
+  font-weight: 600;
+}
+
+.container .day .sepador {
+  margin: 1px 0px;
+  border: solid 1px black;
+}
+
+@media only screen and (min-width: 800px) {
+  .container .day .name {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .container .day .name {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container .day .mañana,
+  .container .day .tarde {
+    height: 80px;
+  }
+  .container .day .name {
+    font-size: 14px;
+  }
+}

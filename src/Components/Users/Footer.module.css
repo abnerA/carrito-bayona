@@ -1,0 +1,80 @@
+.container {
+    background-color: var(--bg-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.info {
+    background-color: var(--bg-footer);
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-radius: 5px;
+    margin: 5px;
+    padding-bottom: 5px;
+    height: auto;
+}
+
+.title {
+    width: 100%;
+    margin: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.green, .blue, .yellow, .red {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+.noteContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.info p {
+    margin: 0px;
+    margin-left: 5px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.info .note {
+    font-size: 12px;
+    margin: 2px;
+    margin-left: 5px;
+    padding: 2px;
+}
+
+.colorGreen, .colorBlue, .colorYellow, .colorRed {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.colorGreen {
+    background-color: rgb(35, 182, 35);
+    /* border: solid rgb(35, 182, 35); */
+}
+
+.colorBlue {
+    background-color: rgb(103, 103, 209);
+    /* border: solid rgb(103, 103, 209); */
+}
+
+.colorYellow {
+    background-color: rgb(235, 221, 37);
+    /* border: solid rgb(235, 221, 37); */
+}
+
+.colorRed {
+    background-color: rgb(221, 50, 50);
+    /* border: solid rgb(221, 50, 50); */
+}
