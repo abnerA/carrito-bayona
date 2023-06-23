@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App">
-      <h1>Carrito Bayona</h1>
+      <h1 style={{color: 'white'}} >Carrito Bayona</h1>
     </div>
   );
 }
