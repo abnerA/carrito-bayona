@@ -24,11 +24,11 @@
     padding: 10px 0px;
 }
 
-.tarde {
+.tarde, .mañana1 {
     margin-top: 10px;
 }
 
-.mañana, .tarde {
+.mañana, .mañana1, .tarde {
     background-color: var(--bg-body);
     width: 90%;
     height: auto;

@@ -13,7 +13,9 @@ const name = [
   "Eunice Segura",
   "Bienvenida Peña",
   "Dilenia Bernabé",
-  "Isabel García"
+  "Isabel García",
+  "Yehonala Segura",
+  "Diana Concepción"
 ];
 
 const normal = {
