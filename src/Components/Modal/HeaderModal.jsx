@@ -15,7 +15,12 @@ const name = [
   "Dilenia Bernabé",
   "Isabel García",
   "Yehonala Segura",
-  "Diana Concepción"
+  "Diana Concepción",
+  "Raysa Brito",
+  "Leopoldina Archibald",
+  "Elisabeth Corona",
+  "José Luis Corona",
+  "Joel Valdez"
 ];
 
 const normal = {
