@@ -24,14 +24,14 @@ export const dataB = getDatabase(app);
 
 // Add Data the Realtime Database
 // Con esta function puedo agregar datos a la DB Realtime
-export function addName(userId, name, month) {
-  const db = getDatabase();
-  const reference = ref(db, month + userId);
+// export function addName(userId, name, month) {
+//   const db = getDatabase();
+//   const reference = ref(db, month + userId);
 
-  set(reference, {
-    name: name,
-  });
-}
+//   set(reference, {
+//     name: name,
+//   });
+// }
 
 // Con está function guardamos las fechas en que vamos a participar
 export function addparticipation(userId, name, month) {
@@ -66,14 +66,14 @@ export function addparticipation(userId, name, month) {
 // addparticipation("Joel Valdez", ["", "", "", "", ""], "Diciembre/")
 
 
-// export function addName(userId, name, month) {
-//   const db = getDatabase();
-//   const reference = ref(db, "Junio/" + userId);
+export function addName(userId, name, month) {
+  const db = getDatabase();
+  const reference = ref(db, "Diciembre/" + userId);
 
-//   set(reference, {
-//     name: name,
-//   });
-// }
+  set(reference, {
+    name: name,
+  });
+}
 
 // addName("day1", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
 // addName("day2", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
@@ -97,12 +97,12 @@ export function addparticipation(userId, name, month) {
 // addName("day20", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
 // addName("day21", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
 // addName("day22", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
-// addName("day23", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
+// addName("day23", ["Asamblea", "Asamblea", "Asamblea", "Asamblea", "Asamblea", "Asamblea", "", "", "", "rgb(221, 50, 50)", "rgb(221, 50, 50)", "rgb(221, 50, 50)", "rgb(221, 50, 50)", "rgb(221, 50, 50)", "rgb(221, 50, 50)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
 // addName("day24", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
 // addName("day25", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
 // addName("day26", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
 // addName("day27", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
-// addName("day28", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
+// addName("day28", ["", "", "", "", "", "", "Visita del Sup.", "Visita del Sup.", "Visita del Sup.", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(221, 50, 50)", "rgb(221, 50, 50)", "rgb(221, 50, 50)"]);
 // addName("day29", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
-// addName("day30", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
+// addName("day30", ["", "", "", "", "", "", "Visita del Sup.", "Visita del Sup.", "Visita del Sup.", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(221, 50, 50)", "rgb(221, 50, 50)", "rgb(221, 50, 50)"]);
 // addName("day31", ["", "", "", "", "", "", "", "", "", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)", "rgb(35, 182, 35)"]);
