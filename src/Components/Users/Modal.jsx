@@ -165,19 +165,19 @@ function Modal() {
     function savedMañana2() {
       let nombreSave = nameSend.nameSend;
       if(nombreSave[0] === "") {
-        nombreSave[0] = `${dias[start.diaModal]} ${start.diaClick} mañana 2do turno`;
+        nombreSave[0] = `${dias[start.diaModal]} ${start.diaClick} mañana segundo turno`;
         addparticipation(start.name, nombreSave, `${start.monthCambiante}/`)
       } else if (nombreSave[1] === "") {
-        nombreSave[1] = `${dias[start.diaModal]} ${start.diaClick} mañana 2do turno`;
+        nombreSave[1] = `${dias[start.diaModal]} ${start.diaClick} mañana segundo turno`;
         addparticipation(start.name, nombreSave, `${start.monthCambiante}/`)
       } else if (nombreSave[2] === "") {
-        nombreSave[2] = `${dias[start.diaModal]} ${start.diaClick} mañana 2do turno`;
+        nombreSave[2] = `${dias[start.diaModal]} ${start.diaClick} mañana segundo turno`;
         addparticipation(start.name, nombreSave, `${start.monthCambiante}/`)
       } else if (nombreSave[3] === "") {
-        nombreSave[3] = `${dias[start.diaModal]} ${start.diaClick} mañana 2do turno`;
+        nombreSave[3] = `${dias[start.diaModal]} ${start.diaClick} mañana segundo turno`;
         addparticipation(start.name, nombreSave, `${start.monthCambiante}/`)
       } else if (nombreSave[4] === "") {
-        nombreSave[4] = `${dias[start.diaModal]} ${start.diaClick} mañana 2do turno`;
+        nombreSave[4] = `${dias[start.diaModal]} ${start.diaClick} mañana segundo turno`;
         addparticipation(start.name, nombreSave, `${start.monthCambiante}/`)
       } else {
         console.log('Son demasiados turnos para usted -mañana 2do turno-');
@@ -208,7 +208,7 @@ function Modal() {
     // Aquí eliminamos las fechas en que se anotan
     function deleteMañana2() {
       let nombreSave = nameSend.nameSend;
-      let i = nombreSave.indexOf(`${dias[start.diaModal]} ${start.diaClick} mañana 2do turno`);
+      let i = nombreSave.indexOf(`${dias[start.diaModal]} ${start.diaClick} mañana segundo turno`);
       nombreSave[i] = "";
       addparticipation(start.name, nombreSave, `${start.monthCambiante}/`);
     }
