@@ -14,9 +14,9 @@ function Modal() {
   const [name, setName] = useState();
   const [nameSend, setNameSend] = useState();
 
-  let mes = start.monthCambiante;
-  let daySelectDate = new Date(`${mes} ${start.diaClick} ${2023}`); // OJO Poner el año de forma dinámica
-  let dayWeek = daySelectDate.getDay();
+  // let mes = start.monthCambiante;
+  // let daySelectDate = new Date(`${mes} ${start.diaClick} ${2024}`); // OJO Poner el año de forma dinámica
+  // let dayWeek = daySelectDate.getDay();
 
   useEffect(() => {
     const tasksRef = ref(dataB, start.monthCambiante);
@@ -334,7 +334,7 @@ function Modal() {
           </div>
         </div>
 
-        <div className={style.tarde} style={{display: dayWeek === 6 ? 'none' : 'block'}}>
+        <div className={style.tarde} style={{display: start.diaModal === 6 ? 'none' : 'block'}}>
           <h5 className={style.title}>5:00 a 7:00 PM "Farmacia" | {`${dias[start.diaModal]} ${start.diaClick} ${start.month}`}</h5>
           <div className={style.containerName}>
             <p className={style.nombres}>{!name ? "..." : name.name[6]}</p>

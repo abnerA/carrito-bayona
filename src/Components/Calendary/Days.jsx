@@ -67,7 +67,7 @@ function Days(props) {
     // En este constructor de Class verifico el día de la semana
     // Osea, si es lunes, martes o jueves.
     let obtenerMonth = month(props.month);
-    let daySelectDate = new Date(`${obtenerMonth} ${getDia} 2023`); // OJO Poner el año de forma dinamica
+    let daySelectDate = new Date(`${obtenerMonth} ${getDia} ${props.year}`); // OJO Poner el año de forma dinamica
 
     // Me devuelve el día de la semana
     let dayWeek = daySelectDate.getDay();
@@ -78,7 +78,7 @@ function Days(props) {
       if ((props.mesActual === props.month) && (dayWeek === 2 || dayWeek === 4 || dayWeek === 6) && (getDia >= props.today)) {
         dispatch(openModal([getDia, props.month]));
 
-      } else if (props.numMes + 1 === props.nextMes && props.today >= 25 && (dayWeek === 2 || dayWeek === 4 || dayWeek === 6)) {
+      } else if (((props.numMes + 1 === props.nextMes) || (props.numMes === 11 && props.nextMes === 0)) && (props.today >= 25) && (dayWeek === 2 || dayWeek === 4 || dayWeek === 6)) {
         console.log("Ya te puedes anotar :)");
         dispatch(openModal([getDia, props.month]));
 
