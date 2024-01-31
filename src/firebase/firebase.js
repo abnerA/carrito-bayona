@@ -66,6 +66,7 @@ export function addparticipation(userId, name, month) {
 // addparticipation("Joel Valdez", ["", "", "", "", ""], "Agosto/")
 // addparticipation("Rafaela Ramírez", ["", "", "", "", ""], "Agosto/")
 // addparticipation("Eliana de los Santos", ["", "", "", "", ""], "Agosto/")
+// addparticipation("Maricruz Batista", ["", "", "", "", ""], "Diciembre/")
 
 
 // export function addName(userId, name, month) {
