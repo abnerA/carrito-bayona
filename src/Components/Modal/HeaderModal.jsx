@@ -23,8 +23,8 @@ const name = [
   "Joel Valdez",
   "Rafaela Ramírez",
   "Eliana de los Santos",
-  "Maricruz Batista",
-  "Emilia Seguil",
+  "Maricruz Batista",
+  "Emilia Seguil",
   "Coral Duran"
 ];
 
