@@ -43,39 +43,39 @@ export function addparticipation(userId, name, month) {
   });
 }
 
-
-// addparticipation("Blanco", [""], "Agosto/")
-
-// addparticipation("Raúl Ortega", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Débora Ortega", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Sairiel Mateo", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Janelys Mateo", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Arisleyda Bazán", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Miladys Gutiérrez", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Julia De La Cruz", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Eunice Segura", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Bienvenida Peña", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Dilenia Bernabé", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Isabel García", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Yehonala Segura", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Diana Concepción", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Raysa Brito", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Leopoldina Archibald", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Elisabeth Corona", ["", "", "", "", ""], "Agosto/")
-// addparticipation("José Luis Corona", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Joel Valdez", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Rafaela Ramírez", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Eliana de los Santos", ["", "", "", "", ""], "Agosto/")
-// addparticipation("Maricruz Batista", ["", "", "", "", ""], "Abril/")
-// addparticipation("Emilia Seguil", ["", "", "", "", ""], "Abril/")
+// addparticipation("Blanco", [""], "Diciembre/")
+// addparticipation("Raúl Ortega", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Débora Ortega", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Sairiel Mateo", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Janelys Mateo", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Arisleyda Bazán", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Miladys Gutiérrez", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Julia De La Cruz", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Eunice Segura", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Bienvenida Peña", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Dilenia Bernabé", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Isabel García", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Yehonala Segura", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Diana Concepción", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Raysa Brito", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Leopoldina Archibald", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Elisabeth Corona", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("José Luis Corona", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Joel Valdez", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Rafaela Ramírez", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Eliana de los Santos", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Maricruz Batista", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Emilia Seguil", ["", "", "", "", ""], "Diciembre/")
 // addparticipation("Coral Duran", ["", "", "", "", ""], "Diciembre/")
-// addparticipation("Luis De León", ["", "", "", "", ""], "Diciembre/") 
+// addparticipation("Luis De León", ["", "", "", "", ""], "Diciembre/")
+// addparticipation("Zulema Castillo", ["", "", "", "", ""], "Agosto/") 
+
 
 
 
 // export function addName(userId, name, month) {
 //   const db = getDatabase();
-//   const reference = ref(db, "Agosto/" + userId);
+//   const reference = ref(db, "Diciembre/" + userId);
 
 //   set(reference, {
 //     name: name,
